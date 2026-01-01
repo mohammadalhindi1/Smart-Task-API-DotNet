@@ -5,7 +5,7 @@ This project demonstrates backend fundamentals, clean architecture principles, a
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 Smart Task API provides a set of REST endpoints to manage tasks with priorities, statuses, and deadlines.  
 The API is designed with a clean structure that separates concerns and can easily be extended with authentication, persistence, or cloud deployment.
@@ -14,7 +14,7 @@ This project focuses on **how real backend systems are built**, not just how to 
 
 ---
 
-## ✨ Features
+## Features
 
 - RESTful API design
 - Full CRUD operations on tasks
@@ -29,7 +29,7 @@ This project focuses on **how real backend systems are built**, not just how to 
 
 ---
 
-## 🧠 Concepts Demonstrated
+## Concepts Demonstrated
 
 ### Backend Fundamentals
 - REST architecture
