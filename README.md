@@ -129,8 +129,8 @@ Java project focuses on core OOP and data structures
 Together, they demonstrate strong fundamentals across different technologies.
 
 👨‍💻 Author
-Mohammad Alhindi :
-Cloud Computing | Backend / Software Engineer
+Mohammad Alhindi : Cloud Computing | Backend / Software Engineer
+
 GitHub: https://github.com/mohammadalhindi1
 
 LinkedIn: www.linkedin.com/in/mohammad-alhendi13
