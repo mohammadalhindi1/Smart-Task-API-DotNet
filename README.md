@@ -1,4 +1,4 @@
-# Smart Task API (.NET)
+# Smart Task API .NET
 
 A clean and scalable **RESTful Task Management API** built using **ASP.NET Core Web API**.  
 This project demonstrates backend fundamentals, clean architecture principles, and how to expose business logic as reusable services.
@@ -129,7 +129,7 @@ Java project focuses on core OOP and data structures
 Together, they demonstrate strong fundamentals across different technologies.
 
 👨‍💻 Author
-Mohammad Alhindi : Cloud Computing | Backend / Software Engineer
+Mohammad Alhindi : Cloud Computing | Backend | Software Engineer
 
 GitHub: https://github.com/mohammadalhindi1
 
