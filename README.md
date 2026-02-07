@@ -1,16 +1,16 @@
-# Smart Task API .NET
+# Smart Task API (.NET)
 
 A clean and scalable **RESTful Task Management API** built using **ASP.NET Core Web API**.  
-This project demonstrates backend fundamentals, clean architecture principles, and how to expose business logic as reusable services.
+This project focuses on backend fundamentals and demonstrates how to structure and expose business logic through well-defined API endpoints.
 
 ---
 
 ## Project Overview
 
 Smart Task API provides a set of REST endpoints to manage tasks with priorities, statuses, and deadlines.  
-The API is designed with a clean structure that separates concerns and can easily be extended with authentication, persistence, or cloud deployment.
+The project is structured using a clear **layered architecture** that separates concerns and makes the codebase easy to read, maintain, and extend.
 
-This project focuses on **how real backend systems are built**, not just how to write endpoints.
+This project focuses on **how real backend systems are organized**, not just how to write endpoints.
 
 ---
 
@@ -19,12 +19,13 @@ This project focuses on **how real backend systems are built**, not just how to 
 - RESTful API design
 - Full CRUD operations on tasks
 - Task attributes:
-  - Title & description
+  - Title
+  - Description
   - Status: `TODO`, `IN_PROGRESS`, `DONE`
   - Priority: `LOW`, `MEDIUM`, `HIGH`
   - Deadline
 - Proper HTTP status codes
-- Input validation and basic error handling
+- Basic input validation and error handling
 - In-memory data storage (easy to replace later)
 
 ---
@@ -34,8 +35,8 @@ This project focuses on **how real backend systems are built**, not just how to 
 ### Backend Fundamentals
 - REST architecture
 - HTTP methods (GET, POST, PUT, DELETE)
-- JSON serialization/deserialization
-- Status codes (`200`, `201`, `400`, `404`)
+- JSON serialization and deserialization
+- HTTP status codes (`200`, `201`, `400`, `404`)
 
 ### Object-Oriented Programming
 - Encapsulation of business logic
@@ -43,7 +44,7 @@ This project focuses on **how real backend systems are built**, not just how to 
 - Dependency Injection (DI)
 - Separation between Controllers, Services, and Repositories
 
-### Clean Architecture
+### Application Structure
 - Controllers handle HTTP concerns
 - Services contain business logic
 - Repositories manage data access
@@ -52,7 +53,6 @@ This project focuses on **how real backend systems are built**, not just how to 
 ---
 
 ## 🗂️ Project Structure 
-
 ```
 Controllers/
 └── TasksController.cs
@@ -69,9 +69,9 @@ Services/
 Repositories/
 ├── ITaskRepository.cs
 └── InMemoryTaskRepository.cs
+```
 
 Program.cs
-```
 
 ---
 
@@ -90,6 +90,7 @@ The API will be available at:
 ```
 https://localhost:5001
 ```
+
 Swagger UI:
 ```
 https://localhost:5001/swagger
@@ -103,7 +104,8 @@ POST	/api/tasks	Create a new task
 PUT	/api/tasks/{id}	Update an existing task
 DELETE	/api/tasks/{id}	Delete a task
 
-Example Request (POST) :
+Example Request (POST)
+
 ```
 {
   "title": "Prepare technical interview",
@@ -114,23 +116,26 @@ Example Request (POST) :
 }
 ```
 
-Future Improvements :
-Add database support (Entity Framework + SQL)
-Add authentication (JWT)
-Add pagination and filtering
-Dockerize the API
-Deploy to cloud (AWS / Azure)
-Add unit and integration tests
+Future Improvements
+The following enhancements could be added in the future:
+Database support using Entity Framework and SQL
+Authentication using JWT
+Pagination and filtering
+Dockerizing the API
+Cloud deployment (AWS / Azure)
+Unit and integration testing
 
 🔗 Relation to Java Project
 This API is the backend version of the Smart Task Manager (Java) project.
-Java project focuses on core OOP and data structures
-.NET project focuses on backend architecture and API design
-Together, they demonstrate strong fundamentals across different technologies.
+The Java project focuses on core OOP principles and data structures
+The .NET project focuses on backend API design and layered architecture
+Together, they demonstrate a solid foundation across different backend technologies.
 
 👨‍💻 Author
-Mohammad Alhindi : Cloud Computing | Backend | Software Engineer
+
+Mohammad Alhindi
+Cloud Computing | Backend / Software Engineer
 
 GitHub: https://github.com/mohammadalhindi1
 
-LinkedIn: www.linkedin.com/in/mohammad-alhendi13
+LinkedIn: https://www.linkedin.com/in/mohammad-alhendi13
