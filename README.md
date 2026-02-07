@@ -69,10 +69,9 @@ Services/
 Repositories/
 ├── ITaskRepository.cs
 └── InMemoryTaskRepository.cs
-```
 
 Program.cs
-
+```
 ---
 
 ## ▶️ How to Run
