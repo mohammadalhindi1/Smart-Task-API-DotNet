@@ -133,7 +133,7 @@ Together, they demonstrate a solid foundation across different backend technolog
 👨‍💻 Author
 
 Mohammad Alhindi
-Cloud Computing | Backend / Software Engineer
+Cloud Computing | Backend | Software Engineer
 
 GitHub: https://github.com/mohammadalhindi1
 
